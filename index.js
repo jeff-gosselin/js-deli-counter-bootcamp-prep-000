@@ -12,6 +12,7 @@ function nowServing(katzDeliLine) {
   return `Currently serving ${currentlyServing}.`;
 }
 
+
 function currentLine(katzDeliLine) {
   var people = [];
   if (katzDeliLine.length === 0) {
