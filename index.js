@@ -1,5 +1,6 @@
 function takeANumber(katzDeliLine, newPerson) {
   katzDeliLine.push(newPerson);
+  
   return `Welcome, ${newPerson}. You are number ${katzDeliLine.length} in line.`;
 }
 
@@ -27,5 +28,4 @@ function currentLine(katzDeliLine) {
   
   people.join(',');
   return `The line is currently:${people}`;
-  
 }
